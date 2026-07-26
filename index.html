@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyen Van Sang — Fullstack Developer Portfolio | React, React Native, Python & Flutter</title>
+    <meta name="description" content="Nguyen Van Sang - Fullstack Developer specializing in React.js, React Native, Python/Django REST Framework, and Flutter (Clear Architecture). Graduate of FPT Polytechnic Hanoi." />
+    <meta name="keywords" content="Nguyen Van Sang, Fullstack Developer, React, React Native, Python, Django, DRF, Flutter, FPT Polytechnic, Hanoi Developer" />
+
+    <!-- Open Graph / Facebook / Zalo -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nguyen Van Sang — Fullstack Developer Portfolio" />
+    <meta property="og:description" content="Building high-performance Web & Mobile products with React.js, React Native, Python DRF & Flutter." />
+    <meta property="og:url" content="https://github.com/sanggit999" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nguyen Van Sang — Fullstack Developer Portfolio" />
+    <meta name="twitter:description" content="Building high-performance Web & Mobile products with React.js, React Native, Python DRF & Flutter." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN Fallback for instant preview -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              background: {
+                dark: '#0B0F17',
+                light: '#F8FAFC',
+              },
+              surface: {
+                dark: '#151C28',
+                light: '#FFFFFF',
+                borderDark: '#1E293B',
+                borderLight: '#E2E8F0',
+              },
+              brand: {
+                blue: '#3B82F6',
+                blueHover: '#2563EB',
+                violet: '#8B5CF6',
+                mint: '#10B981',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            boxShadow: {
+              'glow-blue': '0 0 25px -5px rgba(59, 130, 246, 0.3)',
+              'glow-violet': '0 0 25px -5px rgba(139, 92, 246, 0.3)',
+              'card': '0 10px 30px -10px rgba(0, 0, 0, 0.5)',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-background-dark text-slate-100 dark:bg-background-dark dark:text-slate-100 transition-colors duration-300 antialiased selection:bg-brand-blue selection:text-white font-sans min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
