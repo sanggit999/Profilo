@@ -30,7 +30,6 @@ export interface AboutInfo {
 export interface CompanyProduct {
   name: string;
   type: string;
-  timeRange?: string;
   description: string;
   features: string[];
   techStack: string[];
