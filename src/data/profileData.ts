@@ -56,8 +56,8 @@ export const companyExperiencesData: CompanyExperience[] = [
     id: 'exp-trunganh',
     companyName: 'Trung Anh Group',
     jobTitle: 'Fullstack Developer',
-    timeRange: '03/2025 — 07/2026',
-    isCurrentRole: false,
+    timeRange: '12/2025 — Present',
+    isCurrentRole: true,
     responsibilities: [
       'Developed & maintained enterprise software products (Web Systems & Cross-Platform Mobile Apps) following decoupled Frontend - Backend architecture.',
       'Designed PostgreSQL database schemas, built RESTful APIs with Python Django REST Framework (DRF), and implemented JWT Role-Based Access Control (RBAC).',
@@ -68,7 +68,6 @@ export const companyExperiencesData: CompanyExperience[] = [
       {
         name: 'HRM System',
         type: 'Web Platform',
-        timeRange: '04/2025 — 07/2026',
         description: 'Comprehensive HR management platform built with decoupled React.js Frontend and Python DRF Backend.',
         features: [
           'Real-time HR analytics dashboard',
@@ -81,7 +80,6 @@ export const companyExperiencesData: CompanyExperience[] = [
       {
         name: 'BeautyCare App',
         type: 'Mobile App',
-        timeRange: '04/2025 — 07/2026',
         description: 'Cross-platform React Native mobile app integrated with Python DRF backend, real-time push notifications, dynamic feature flags via Firebase Remote Config, and published directly to App Store & Google Play.',
         features: [
           'Customer profiles, appointment booking & service management',

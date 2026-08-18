@@ -79,22 +79,14 @@ export const ExperienceSection: React.FC = () => {
                           key={pIdx}
                           className="p-5 rounded-xl bg-slate-100/90 dark:bg-surface-dark/90 border border-slate-200 dark:border-surface-borderDark hover:border-brand-blue/40 transition-all shadow-sm"
                         >
-                          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                          <div className="flex items-center justify-between gap-3 mb-2 flex-nowrap">
                             <h5 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2 min-w-0">
                               <Layers className="w-4 h-4 text-brand-blue shrink-0" />
                               <span className="truncate">{product.name}</span>
                             </h5>
-                            <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap shrink-0">
-                              {product.timeRange && (
-                                <span className="inline-flex items-center gap-1 text-[11px] font-mono text-slate-600 dark:text-slate-400 bg-white/80 dark:bg-surface-dark px-2 py-0.5 rounded border border-slate-200 dark:border-surface-borderDark">
-                                  <Calendar className="w-3 h-3 text-slate-400" />
-                                  {product.timeRange}
-                                </span>
-                              )}
-                              <Badge variant={product.type === 'Web Platform' ? 'blue' : 'violet'} className="shrink-0 whitespace-nowrap">
-                                {product.type}
-                              </Badge>
-                            </div>
+                            <Badge variant={product.type === 'Web Platform' ? 'blue' : 'violet'} className="shrink-0 whitespace-nowrap">
+                              {product.type}
+                            </Badge>
                           </div>
 
                           <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-3">
