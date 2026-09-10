@@ -13,7 +13,7 @@ A modern, high-performance, dark-first Personal Developer Portfolio built with *
 - **FullName**: Nguyễn Văn Sáng (Nguyen Van Sang)
 - **Role Title**: Fullstack Developer
 - **Education**: FPT Polytechnic Hanoi (2022 - 2025) — Computer Programming
-- **Current Position**: Fullstack Developer at **Trung Anh Group** (03/2025 — 07/2026)
+- **Current Position**: Fullstack Developer at **Trung Anh Group** (12/2025 — Present)
 - **Email**: [sangnguyen1892k3@gmail.com](mailto:sangnguyen1892k3@gmail.com)
 - **GitHub**: [github.com/sanggit999](https://github.com/sanggit999)
 
